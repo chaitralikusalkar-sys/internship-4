@@ -1,0 +1,20 @@
+button {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+p {
+    background-color: lightblue;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: darkred
+}
