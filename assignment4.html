@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Assignment</title>
+
+    <style>
+
+        /* Body */
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background-color:#f2f2f2;
+        }
+
+        /* Navbar */
+        .navbar{
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:18px;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        /* Heading Section */
+        .header{
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        .header h1{
+            margin-bottom:10px;
+            color:#222;
+        }
+
+        .header p{
+            color:#555;
+            font-size:18px;
+        }
+
+        /* Flexbox Cards */
+        .flex-container{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            padding:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background-color:white;
+            width:250px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        .card h3{
+            color:#ff6600;
+        }
+
+        /* Grid Layout */
+        .grid-container{
+            display:grid;
+            grid-template-columns:repeat(3, 1fr);
+            gap:20px;
+            padding:20px;
+        }
+
+        .grid-box{
+            background-color:orange;
+            color:white;
+            padding:40px;
+            text-align:center;
+            font-size:20px;
+            border-radius:8px;
+            font-weight:bold;
+        }
+
+        /* Position Section */
+        .position-section{
+            padding:20px;
+        }
+
+        .position-title{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        .box{
+            width:200px;
+            padding:15px;
+            margin:20px;
+            color:white;
+            font-weight:bold;
+        }
+
+        /* Static */
+        .static{
+            position:static;
+            background-color:#444;
+        }
+
+        /* Relative */
+        .relative{
+            position:relative;
+            left:30px;
+            background-color:#0077cc;
+        }
+
+        /* Absolute */
+        .absolute-container{
+            position:relative;
+            height:150px;
+            background-color:white;
+            border:2px dashed gray;
+            margin:20px;
+        }
+
+        .absolute{
+            position:absolute;
+            top:20px;
+            right:20px;
+            background-color:#ff6600;
+            padding:15px;
+            color:white;
+        }
+
+        /* Sticky */
+        .sticky{
+            position:sticky;
+            top:0;
+            background-color:green;
+            padding:15px;
+            text-align:center;
+            color:white;
+            z-index:1000;
+        }
+
+        /* Fixed */
+        .fixed{
+            position:fixed;
+            bottom:20px;
+            right:20px;
+            background-color:red;
+            padding:15px;
+            border-radius:50px;
+        }
+
+        /* Footer */
+        footer{
+            text-align:center;
+            padding:20px;
+            background-color:black;
+            color:white;
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        My College Assignment Webpage
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Welcome to HTML & CSS Assignment</h1>
+        <p>Beginner-Friendly Webpage Using Internal CSS Only</p>
+    </div>
+
+    <!-- Flexbox Section -->
+    <div class="flex-container">
+
+        <div class="card">
+            <h3>Flexbox Card 1</h3>
+            <p>This card is created using Flexbox layout.</p>
+        </div>
+
+        <div class="card">
+            <h3>Flexbox Card 2</h3>
+            <p>Flexbox helps align items properly.</p>
+        </div>
+
+        <div class="card">
+            <h3>Flexbox Card 3</h3>
+            <p>Modern and clean card design example.</p>
+        </div>
+
+    </div>
+
+    <!-- Grid Layout -->
+    <div class="grid-container">
+
+        <div class="grid-box">Box 1</div>
+        <div class="grid-box">Box 2</div>
+        <div class="grid-box">Box 3</div>
+        <div class="grid-box">Box 4</div>
+        <div class="grid-box">Box 5</div>
+        <div class="grid-box">Box 6</div>
+
+    </div>
+
+    <!-- Sticky Example -->
+    <div class="sticky">
+        Sticky Position Example
+    </div>
+
+    <!-- Position Section -->
+    <div class="position-section">
+
+        <h2 class="position-title">CSS Position Examples</h2>
+
+        <div class="box static">
+            Static Position
+        </div>
+
+        <div class="box relative">
+            Relative Position
+        </div>
+
+        <div class="absolute-container">
+
+            <div class="absolute">
+                Absolute Position
+            </div>
+
+        </div>
+
+        <div class="box fixed">
+            Fixed
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Designed for College HTML & CSS Assignment
+    </footer>
+
+</body>
+</html>
